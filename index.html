@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h2>What Can JavaScript Do?</h2>
+
+    <p id="demo">JavaScript can change HTML content.</p>
+
+    <button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+
+    <p id="demo1">JS can use both "" and ''</p>
+
+    <button type="button" onclick="document.getElementById('demo1').innerHTML = 'Hello JavaScript!'">Click Me!</button>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <p>JavaScript can change HTML attribute values.</p>
+    <p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+    <button onclick="document.getElementById('my image').src='pic_bulbon.gif'">Turn on the light</button>
+
+    <img id="myImage" src="pic_bulboff.gif" style="width:100px">
+
+    <button onclick="document.getElementById('my image').src='pic_bulbon.gif'">Turn off the light</button>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <p id="letterSize">JavaScript can chage parts of HTML elements</p>
+
+    <button type="button" onclick="document.getElementById('letterSize').style.fontSize='35px'">Click this button</button>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <p>JavaScript can show hidden HTML elements.</p>
+
+    <p id="show" style="display:none">Hello JavaScript!</p>
+
+    <button type="button" onclick="document.getElementById('show').style.display='block'">Click Me!</button>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <p id="hide">JavaScript can hide HTML elements.</p>
+
+<button type="button" onclick="document.getElementById('hide').style.display='none'">Click Me!</button>
+</body>
+
+
+</html>
