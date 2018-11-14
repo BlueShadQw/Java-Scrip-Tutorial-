@@ -62,8 +62,59 @@
 
     <p id="hide">JavaScript can hide HTML elements.</p>
 
-<button type="button" onclick="document.getElementById('hide').style.display='none'">Click Me!</button>
+    <button type="button" onclick="document.getElementById('hide').style.display='none'">Click Me!</button>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <h2>Java Script using script</h2>
+    <p id="body"></p>
+
+    <script>
+        document.getElementById("body").innerHTML = "My First JavaScript";
+    </script>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <h2>JS in head</h2>
+    <p id="changeParagraph">a paragraph</p>
+    <button type="button" onclick="firstFunction()">try me</button>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <h2>External JavaScript</h2>
+
+    <p id="second">A Paragraph.</p>
+
+    <button type="button" onclick="secondFunction()">Try it</button>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 </body>
+
+<head>
+
+    <script>
+        function firstFunction() {
+            document.getElementById("changeParagraph").innerHTML = "Paragraph Changed.";
+        }
+    </script>
+    <script src="script.js"></script>
+</head>
 
 
 </html>
